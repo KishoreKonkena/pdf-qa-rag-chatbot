@@ -47,6 +47,6 @@ python -m streamlit run streamlit_app.py
 ![Upload Screenshot](Screenshot_upload.png)
 
 ### Generated Answer
-![Answer Screenshot](screenshot_answer.png)
+![Answer Screenshot](Screenshot_Answer.png)
 
 
