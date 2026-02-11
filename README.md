@@ -2,6 +2,12 @@
 
 An interactive Retrieval-Augmented Generation (RAG) system for PDF-based question answering.
 
+## 🏗 Architecture
+
+The system follows a Retrieval-Augmented Generation (RAG) pipeline:
+
+![Architecture Diagram](architecture.png)
+
 ## 🔧 Tech Stack
 
 - Python
@@ -35,5 +41,12 @@ python app.py
 
 python -m streamlit run streamlit_app.py
 
-## 
+## 📸 Application Screenshots
+
+### Upload PDF
+![Upload Screenshot](screenshot_upload.png)
+
+### Generated Answer
+![Answer Screenshot](screenshot_answer.png)
+
 
