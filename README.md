@@ -1,6 +1,7 @@
 # 📄 PDF Question Answering Chatbot (RAG + Streamlit)
 
 An interactive Retrieval-Augmented Generation (RAG) system for PDF-based question answering.
+---
 
 ## 🏗 Architecture
 
@@ -10,19 +11,34 @@ The system follows a Retrieval-Augmented Generation (RAG) pipeline:
 
 ## 🔧 Tech Stack
 
-- Python
-- SentenceTransformers
-- FAISS
-- OpenAI GPT
-- Streamlit
-- RAG Architecture
+- **Python**
+- **SentenceTransformers** (Embeddings)
+- **FAISS** (Vector Similarity Search)
+- **OpenAI GPT** (LLM)
+- **Streamlit** (Frontend UI)
+- **RAG Architecture**
+
+---
 
 ## 🚀 Features
 
-- Real-time PDF upload
-- Semantic chunking
-- Vector similarity search
-- Context-grounded LLM responses
+
+- 📂 Real-time PDF upload
+- ✂️ Semantic text chunking
+- 🔎 Vector similarity search (FAISS)
+- 🧠 Context-grounded LLM responses
+- 💬 Interactive Streamlit interface
+
+
+## 📸 Application Screenshots
+
+### 📂 Upload PDF
+
+![Upload Screenshot](Screenshot_upload.png)
+
+### 💬 Generated Answer
+![Answer Screenshot](Screenshot_Answer.png)
+
 
 ## ▶️ Run Locally
 
@@ -41,12 +57,7 @@ python app.py
 
 python -m streamlit run streamlit_app.py
 
-## 📸 Application Screenshots
+## 👨‍💻 Author
 
-### Upload PDF
-![Upload Screenshot](Screenshot_upload.png)
-
-### Generated Answer
-![Answer Screenshot](Screenshot_Answer.png)
-
+Kishore
 
