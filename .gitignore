@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+
+# Streamlit cache
+.streamlit/
+
+# HuggingFace cache
+.cache/
+.huggingface/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PDFs (optional)
+*.pdf
