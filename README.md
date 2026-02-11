@@ -44,7 +44,7 @@ python -m streamlit run streamlit_app.py
 ## 📸 Application Screenshots
 
 ### Upload PDF
-![Upload Screenshot](screenshot_upload.png)
+![Upload Screenshot](Screenshot 2026-02-11 100301.png)
 
 ### Generated Answer
 ![Answer Screenshot](screenshot_answer.png)
